@@ -113,7 +113,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q6-ds-Cfl">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q6-ds-Cfl">
                                 <rect key="frame" x="30" y="462" width="330" height="200"/>
                                 <color key="backgroundColor" red="0.81445640330000002" green="0.80349910260000001" blue="0.88718599080000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
