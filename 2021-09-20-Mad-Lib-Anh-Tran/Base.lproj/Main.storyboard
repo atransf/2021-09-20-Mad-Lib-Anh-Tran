@@ -114,10 +114,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q6-ds-Cfl">
-                                <rect key="frame" x="30" y="462" width="330" height="200"/>
+                                <rect key="frame" x="30" y="463" width="330" height="170"/>
                                 <color key="backgroundColor" red="0.81445640330000002" green="0.80349910260000001" blue="0.88718599080000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="zav-k7-XN1"/>
+                                    <constraint firstAttribute="height" constant="170" id="zav-k7-XN1"/>
                                 </constraints>
                                 <string key="text">Mad Lib 
 
@@ -127,7 +127,7 @@ Made by Anh Tran</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV1-H8-Vd3">
-                                <rect key="frame" x="30" y="670" width="330" height="30"/>
+                                <rect key="frame" x="30" y="647" width="330" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9Zh-zi-pcY"/>
                                 </constraints>
@@ -141,7 +141,7 @@ Made by Anh Tran</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made by Anh Tran" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWN-ln-H0R">
-                                <rect key="frame" x="126" y="715" width="138" height="24.333333333333371"/>
+                                <rect key="frame" x="126" y="685" width="138" height="24.333333333333371"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -171,13 +171,13 @@ Made by Anh Tran</string>
                             <constraint firstItem="xIa-iw-ddD" firstAttribute="top" secondItem="cQX-eH-V2N" secondAttribute="top" id="QbR-y0-LDS"/>
                             <constraint firstItem="5um-fv-pHg" firstAttribute="top" secondItem="Fdj-H2-GEl" secondAttribute="bottom" constant="15" id="RUv-Bg-zZz"/>
                             <constraint firstItem="rjN-b9-Yvi" firstAttribute="leading" secondItem="4AL-uC-o44" secondAttribute="leading" id="S5q-Z8-7Fa"/>
-                            <constraint firstItem="kWN-ln-H0R" firstAttribute="top" secondItem="RV1-H8-Vd3" secondAttribute="bottom" constant="15" id="TbK-Yt-WnT"/>
+                            <constraint firstItem="kWN-ln-H0R" firstAttribute="top" secondItem="RV1-H8-Vd3" secondAttribute="bottom" constant="8" id="TbK-Yt-WnT"/>
                             <constraint firstItem="Fdj-H2-GEl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UoO-Cd-q0D"/>
                             <constraint firstItem="7Jt-zL-Uc1" firstAttribute="leading" secondItem="5um-fv-pHg" secondAttribute="leading" id="V1c-tj-FKo"/>
                             <constraint firstItem="njq-EZ-X5j" firstAttribute="leading" secondItem="D8K-Lu-gD6" secondAttribute="trailing" constant="113" id="YMl-gt-sDo"/>
                             <constraint firstItem="xIa-iw-ddD" firstAttribute="leading" secondItem="cQX-eH-V2N" secondAttribute="trailing" constant="139" id="YVo-hf-5y6"/>
                             <constraint firstItem="njq-EZ-X5j" firstAttribute="trailing" secondItem="pqy-2n-6Tg" secondAttribute="trailing" id="a0Z-zz-qJE"/>
-                            <constraint firstItem="2Q6-ds-Cfl" firstAttribute="top" secondItem="RV1-H8-Vd3" secondAttribute="bottom" constant="-238" id="c8e-rw-otB"/>
+                            <constraint firstItem="2Q6-ds-Cfl" firstAttribute="top" secondItem="RV1-H8-Vd3" secondAttribute="bottom" constant="-214" id="c8e-rw-otB"/>
                             <constraint firstItem="7Oy-mR-tZp" firstAttribute="top" secondItem="ELV-dZ-Mtx" secondAttribute="bottom" constant="8" symbolic="YES" id="cJq-fY-e2e"/>
                             <constraint firstItem="hN8-fz-XWg" firstAttribute="top" secondItem="dUE-iO-RrY" secondAttribute="bottom" constant="8" symbolic="YES" id="coV-vX-HyG"/>
                             <constraint firstItem="dUE-iO-RrY" firstAttribute="trailing" secondItem="xIa-iw-ddD" secondAttribute="trailing" id="csm-4l-njS"/>
@@ -199,7 +199,7 @@ Made by Anh Tran</string>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Fdj-H2-GEl" secondAttribute="trailing" id="uTt-hK-W0f"/>
                             <constraint firstItem="RV1-H8-Vd3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="vFb-GW-o8a"/>
                             <constraint firstItem="5um-fv-pHg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="wYB-mU-w8W"/>
-                            <constraint firstItem="RV1-H8-Vd3" firstAttribute="top" secondItem="njq-EZ-X5j" secondAttribute="bottom" constant="223" id="xED-d6-zyf"/>
+                            <constraint firstItem="RV1-H8-Vd3" firstAttribute="top" secondItem="njq-EZ-X5j" secondAttribute="bottom" constant="200" id="xED-d6-zyf"/>
                             <constraint firstItem="hN8-fz-XWg" firstAttribute="leading" secondItem="bAq-vc-Ia0" secondAttribute="trailing" constant="84" id="xk6-x5-3Oe"/>
                             <constraint firstItem="dUE-iO-RrY" firstAttribute="top" secondItem="xIa-iw-ddD" secondAttribute="bottom" constant="8" symbolic="YES" id="yel-ht-dFw"/>
                         </constraints>
