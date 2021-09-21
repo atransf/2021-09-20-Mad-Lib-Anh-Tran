@@ -1,24 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_021_09_20_Mad_Lib_Anh_Tran" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAD_LIB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdj-H2-GEl">
+                                <rect key="frame" x="136.66666666666666" y="64" width="117" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XBd-XL-YCe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ELV-dZ-Mtx">
+                                <rect key="frame" x="224" y="119" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body Organ:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5um-fv-pHg">
+                                <rect key="frame" x="40" y="119" width="101" height="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Oy-mR-tZp">
+                                <rect key="frame" x="224" y="161" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adjective:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jt-zL-Uc1">
+                                <rect key="frame" x="40" y="161" width="80" height="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xIa-iw-ddD">
+                                <rect key="frame" x="224" y="203" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verb:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQX-eH-V2N">
+                                <rect key="frame" x="40" y="203" width="45" height="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dUE-iO-RrY">
+                                <rect key="frame" x="224" y="245" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adjective:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaK-Y2-T9m">
+                                <rect key="frame" x="40" y="245" width="80" height="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hN8-fz-XWg">
+                                <rect key="frame" x="224" y="287" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plural Noun:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAq-vc-Ia0">
+                                <rect key="frame" x="40" y="287" width="100" height="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rxR-nM-dwJ">
+                                <rect key="frame" x="224" y="329" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Container:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4AL-uC-o44">
+                                <rect key="frame" x="40" y="329" width="86" height="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pqy-2n-6Tg">
+                                <rect key="frame" x="224" y="371" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adjective:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjN-b9-Yvi">
+                                <rect key="frame" x="40" y="371" width="80" height="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="njq-EZ-X5j">
+                                <rect key="frame" x="224" y="413" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8K-Lu-gD6">
+                                <rect key="frame" x="40" y="413" width="71" height="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q6-ds-Cfl">
+                                <rect key="frame" x="30" y="462" width="330" height="200"/>
+                                <color key="backgroundColor" red="0.81445640330000002" green="0.80349910260000001" blue="0.88718599080000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="zav-k7-XN1"/>
+                                </constraints>
+                                <string key="text">Mad Lib 
+
+Made by Anh Tran</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV1-H8-Vd3">
+                                <rect key="frame" x="30" y="670" width="330" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9Zh-zi-pcY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Bold" family="Bodoni 72 Oldstyle" pointSize="23"/>
+                                <state key="normal" title="Play Mad Lib">
+                                    <color key="titleColor" red="0.29727379242896562" green="0.28792423983290244" blue="0.35051546391752575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="0.85336703059999997" green="0.8466694951" blue="0.91787350180000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="madLibButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yho-qt-sm7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made by Anh Tran" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWN-ln-H0R">
+                                <rect key="frame" x="126" y="715" width="138" height="24.333333333333371"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.81445640330000002" green="0.80349910260000001" blue="0.88718599080000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dUE-iO-RrY" firstAttribute="leading" secondItem="AaK-Y2-T9m" secondAttribute="trailing" constant="104" id="2H0-ak-8vd"/>
+                            <constraint firstItem="2Q6-ds-Cfl" firstAttribute="trailing" secondItem="RV1-H8-Vd3" secondAttribute="trailing" id="2SD-Xz-ohb"/>
+                            <constraint firstItem="ELV-dZ-Mtx" firstAttribute="top" secondItem="5um-fv-pHg" secondAttribute="top" id="2nE-2O-RWR"/>
+                            <constraint firstItem="cQX-eH-V2N" firstAttribute="leading" secondItem="7Jt-zL-Uc1" secondAttribute="leading" id="3zO-lR-m6C"/>
+                            <constraint firstItem="hN8-fz-XWg" firstAttribute="trailing" secondItem="dUE-iO-RrY" secondAttribute="trailing" id="6M9-dq-ueE"/>
+                            <constraint firstItem="bAq-vc-Ia0" firstAttribute="leading" secondItem="AaK-Y2-T9m" secondAttribute="leading" id="81C-Fg-wXa"/>
+                            <constraint firstItem="rxR-nM-dwJ" firstAttribute="trailing" secondItem="hN8-fz-XWg" secondAttribute="trailing" id="8YH-3r-wo1"/>
+                            <constraint firstItem="xIa-iw-ddD" firstAttribute="trailing" secondItem="7Oy-mR-tZp" secondAttribute="trailing" id="9HE-ZA-QfN"/>
+                            <constraint firstItem="pqy-2n-6Tg" firstAttribute="trailing" secondItem="rxR-nM-dwJ" secondAttribute="trailing" id="9fj-v4-hF7"/>
+                            <constraint firstItem="2Q6-ds-Cfl" firstAttribute="leading" secondItem="RV1-H8-Vd3" secondAttribute="leading" id="Duj-aw-ESz"/>
+                            <constraint firstItem="7Oy-mR-tZp" firstAttribute="leading" secondItem="7Jt-zL-Uc1" secondAttribute="trailing" constant="104" id="Eqn-OY-0b6"/>
+                            <constraint firstItem="D8K-Lu-gD6" firstAttribute="leading" secondItem="rjN-b9-Yvi" secondAttribute="leading" id="FQj-c9-plU"/>
+                            <constraint firstItem="pqy-2n-6Tg" firstAttribute="top" secondItem="rxR-nM-dwJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Gso-3B-xKY"/>
+                            <constraint firstItem="hN8-fz-XWg" firstAttribute="top" secondItem="bAq-vc-Ia0" secondAttribute="top" id="Hah-XF-sn9"/>
+                            <constraint firstItem="rxR-nM-dwJ" firstAttribute="top" secondItem="hN8-fz-XWg" secondAttribute="bottom" constant="8" symbolic="YES" id="Jjx-kl-BE9"/>
+                            <constraint firstItem="4AL-uC-o44" firstAttribute="leading" secondItem="bAq-vc-Ia0" secondAttribute="leading" id="OKT-ip-JF0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ELV-dZ-Mtx" secondAttribute="trailing" constant="40" id="Oko-g3-us9"/>
+                            <constraint firstItem="njq-EZ-X5j" firstAttribute="top" secondItem="D8K-Lu-gD6" secondAttribute="top" id="PGP-fy-pCi"/>
+                            <constraint firstItem="xIa-iw-ddD" firstAttribute="top" secondItem="cQX-eH-V2N" secondAttribute="top" id="QbR-y0-LDS"/>
+                            <constraint firstItem="5um-fv-pHg" firstAttribute="top" secondItem="Fdj-H2-GEl" secondAttribute="bottom" constant="15" id="RUv-Bg-zZz"/>
+                            <constraint firstItem="rjN-b9-Yvi" firstAttribute="leading" secondItem="4AL-uC-o44" secondAttribute="leading" id="S5q-Z8-7Fa"/>
+                            <constraint firstItem="kWN-ln-H0R" firstAttribute="top" secondItem="RV1-H8-Vd3" secondAttribute="bottom" constant="15" id="TbK-Yt-WnT"/>
+                            <constraint firstItem="Fdj-H2-GEl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UoO-Cd-q0D"/>
+                            <constraint firstItem="7Jt-zL-Uc1" firstAttribute="leading" secondItem="5um-fv-pHg" secondAttribute="leading" id="V1c-tj-FKo"/>
+                            <constraint firstItem="njq-EZ-X5j" firstAttribute="leading" secondItem="D8K-Lu-gD6" secondAttribute="trailing" constant="113" id="YMl-gt-sDo"/>
+                            <constraint firstItem="xIa-iw-ddD" firstAttribute="leading" secondItem="cQX-eH-V2N" secondAttribute="trailing" constant="139" id="YVo-hf-5y6"/>
+                            <constraint firstItem="njq-EZ-X5j" firstAttribute="trailing" secondItem="pqy-2n-6Tg" secondAttribute="trailing" id="a0Z-zz-qJE"/>
+                            <constraint firstItem="2Q6-ds-Cfl" firstAttribute="top" secondItem="RV1-H8-Vd3" secondAttribute="bottom" constant="-238" id="c8e-rw-otB"/>
+                            <constraint firstItem="7Oy-mR-tZp" firstAttribute="top" secondItem="ELV-dZ-Mtx" secondAttribute="bottom" constant="8" symbolic="YES" id="cJq-fY-e2e"/>
+                            <constraint firstItem="hN8-fz-XWg" firstAttribute="top" secondItem="dUE-iO-RrY" secondAttribute="bottom" constant="8" symbolic="YES" id="coV-vX-HyG"/>
+                            <constraint firstItem="dUE-iO-RrY" firstAttribute="trailing" secondItem="xIa-iw-ddD" secondAttribute="trailing" id="csm-4l-njS"/>
+                            <constraint firstItem="Fdj-H2-GEl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="d4m-9y-cfA"/>
+                            <constraint firstItem="kWN-ln-H0R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dEK-5H-79M"/>
+                            <constraint firstItem="dUE-iO-RrY" firstAttribute="top" secondItem="AaK-Y2-T9m" secondAttribute="top" id="elL-cU-X4l"/>
+                            <constraint firstItem="7Oy-mR-tZp" firstAttribute="top" secondItem="7Jt-zL-Uc1" secondAttribute="top" id="gLh-Gv-jIP"/>
+                            <constraint firstItem="xIa-iw-ddD" firstAttribute="top" secondItem="7Oy-mR-tZp" secondAttribute="bottom" constant="8" symbolic="YES" id="hsD-jb-fwf"/>
+                            <constraint firstItem="pqy-2n-6Tg" firstAttribute="leading" secondItem="rjN-b9-Yvi" secondAttribute="trailing" constant="104" id="jSb-hW-k8v"/>
+                            <constraint firstItem="7Oy-mR-tZp" firstAttribute="trailing" secondItem="ELV-dZ-Mtx" secondAttribute="trailing" id="juS-hL-4GN"/>
+                            <constraint firstItem="rxR-nM-dwJ" firstAttribute="leading" secondItem="4AL-uC-o44" secondAttribute="trailing" constant="98" id="k6I-J7-Tbm"/>
+                            <constraint firstItem="pqy-2n-6Tg" firstAttribute="top" secondItem="rjN-b9-Yvi" secondAttribute="top" id="k9m-4S-qIf"/>
+                            <constraint firstItem="rxR-nM-dwJ" firstAttribute="top" secondItem="4AL-uC-o44" secondAttribute="top" id="mxs-ZA-DYe"/>
+                            <constraint firstItem="ELV-dZ-Mtx" firstAttribute="leading" secondItem="5um-fv-pHg" secondAttribute="trailing" constant="83" id="nKY-sy-zrX"/>
+                            <constraint firstItem="AaK-Y2-T9m" firstAttribute="leading" secondItem="cQX-eH-V2N" secondAttribute="leading" id="pAo-qg-iym"/>
+                            <constraint firstItem="Fdj-H2-GEl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="pzG-bM-NHh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RV1-H8-Vd3" secondAttribute="trailing" constant="30" id="r8l-F6-18i"/>
+                            <constraint firstItem="njq-EZ-X5j" firstAttribute="top" secondItem="pqy-2n-6Tg" secondAttribute="bottom" constant="8" symbolic="YES" id="uEy-Wk-gpH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Fdj-H2-GEl" secondAttribute="trailing" id="uTt-hK-W0f"/>
+                            <constraint firstItem="RV1-H8-Vd3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="vFb-GW-o8a"/>
+                            <constraint firstItem="5um-fv-pHg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="wYB-mU-w8W"/>
+                            <constraint firstItem="RV1-H8-Vd3" firstAttribute="top" secondItem="njq-EZ-X5j" secondAttribute="bottom" constant="223" id="xED-d6-zyf"/>
+                            <constraint firstItem="hN8-fz-XWg" firstAttribute="leading" secondItem="bAq-vc-Ia0" secondAttribute="trailing" constant="84" id="xk6-x5-3Oe"/>
+                            <constraint firstItem="dUE-iO-RrY" firstAttribute="top" secondItem="xIa-iw-ddD" secondAttribute="bottom" constant="8" symbolic="YES" id="yel-ht-dFw"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="adjective1Field" destination="7Oy-mR-tZp" id="Ecb-Wl-nsy"/>
+                        <outlet property="adjective2Field" destination="dUE-iO-RrY" id="dV8-qB-gES"/>
+                        <outlet property="adjective3Field" destination="pqy-2n-6Tg" id="pS5-j8-3tw"/>
+                        <outlet property="bodyOrganField" destination="ELV-dZ-Mtx" id="tkb-Ul-TLb"/>
+                        <outlet property="containerField" destination="rxR-nM-dwJ" id="euJ-bf-AWA"/>
+                        <outlet property="numberField" destination="njq-EZ-X5j" id="7zf-R9-BET"/>
+                        <outlet property="pluralNounField" destination="hN8-fz-XWg" id="JYT-PN-8Uo"/>
+                        <outlet property="textView" destination="2Q6-ds-Cfl" id="ls6-D0-YTJ"/>
+                        <outlet property="verbField" destination="xIa-iw-ddD" id="ysx-NU-tsK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="135.38461538461539" y="137.91469194312796"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
